@@ -1,0 +1,16 @@
+{
+  "name": "mcp-server-gemini-tool",
+  "version": "1.0.0",
+  "description": "MCP Server that provides Gemini as a tool for Claude Code",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "groq-sdk": "^0.36.0",
+    "openai": "^6.9.1"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "models": {
+    "mistralai/mistral-7b-instruct:free": {
+      "name": "Mistral 7B Instruct",
+      "provider": "Mistral AI",
+      "size": "7B",
+      "category": "General",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 365,
+      "working": true,
+      "rank": 1
+    },
+    "nvidia/nemotron-nano-12b-v2-vl:free": {
+      "name": "Nemotron Nano 12B VL",
+      "provider": "NVIDIA",
+      "size": "12B",
+      "category": "Vision",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 628,
+      "working": true,
+      "rank": 2
+    },
+    "qwen/qwen3-coder:free": {
+      "name": "Qwen3 Coder",
+      "provider": "Alibaba",
+      "size": "480B A35B",
+      "category": "Coding",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 901,
+      "working": true,
+      "rank": 3
+    },
+    "google/gemini-2.0-flash-exp:free": {
+      "name": "Gemini 2.0 Flash Exp",
+      "provider": "Google",
+      "size": "1.05M context",
+      "category": "Google AI",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 961,
+      "working": true,
+      "rank": 4
+    },
+    "x-ai/grok-4.1-fast:free": {
+      "name": "Grok 4.1 Fast",
+      "provider": "xAI",
+      "size": "2M context",
+      "category": "General",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 1226,
+      "working": true,
+      "rank": 5
+    },
+    "meta-llama/llama-3.3-70b-instruct:free": {
+      "name": "Llama 3.3 70B Instruct",
+      "provider": "Meta",
+      "size": "70B",
+      "category": "General",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 1665,
+      "working": true,
+      "rank": 6
+    },
+    "meta-llama/llama-3.2-3b-instruct:free": {
+      "name": "Llama 3.2 3B Instruct",
+      "provider": "Meta",
+      "size": "3B",
+      "category": "Small",
+      "limit": 50,
+      "remaining": 50,
+      "resetTime": null,
+      "lastUpdated": null,
+      "totalRequests": 0,
+      "avgResponseTime": 2089,
+      "working": true,
+      "rank": 7
+    }
+  },
+  "metadata": {
+    "created": "2025-11-24T15:00:00Z",
+    "lastSync": null,
+    "version": "3.0.0",
+    "totalModels": 7,
+    "notes": "Limit: 50/Tag (Standard) oder 1000/Tag mit 10+ Credits. Keine Rate-Limit-Headers verfügbar - manuelle Zählung. Sortiert nach Response-Zeit (schnellste zuerst)."
+  }
+}

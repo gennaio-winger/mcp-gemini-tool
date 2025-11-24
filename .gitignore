@@ -1,0 +1,38 @@
+# Environment Variables (NIEMALS committen!)
+.env
+.env.local
+.env.*.local
+
+# API Keys und Secrets
+**/GEMINI_API_KEY*
+**/GROQ_API_KEY*
+**/OPENROUTER_API_KEY*
+**/LITEAPI_KEY*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Budget & Counter Dateien (enthalten Request-Historie)
+*-budget.json
+*-counter.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test-Dateien mit Keys
+test-*-key.js
+*-api-test.js

@@ -1,0 +1,78 @@
+{
+  "models": {
+    "x-ai/grok-4.1-fast:free": {
+      "requests": 2,
+      "successfulRequests": 2,
+      "failedRequests": 0,
+      "totalTokens": 350,
+      "lastUsed": 1763991212399,
+      "lastError": null,
+      "errorCount": 0,
+      "availability": "available"
+    },
+    "qwen/qwen3-coder:free": {
+      "requests": 2,
+      "successfulRequests": 2,
+      "failedRequests": 0,
+      "totalTokens": 950,
+      "lastUsed": 1763991212399,
+      "lastError": null,
+      "errorCount": 0,
+      "availability": "available"
+    },
+    "nvidia/nemotron-nano-12b-v2-vl:free": {
+      "requests": 1,
+      "successfulRequests": 1,
+      "failedRequests": 0,
+      "totalTokens": 300,
+      "lastUsed": 1763991212399,
+      "lastError": null,
+      "errorCount": 0,
+      "availability": "available"
+    },
+    "deepseek/deepseek-r1-0528:free": {
+      "requests": 1,
+      "successfulRequests": 0,
+      "failedRequests": 1,
+      "totalTokens": 0,
+      "lastUsed": null,
+      "lastError": {
+        "code": 429,
+        "message": "Rate limited upstream",
+        "timestamp": 1763991212399
+      },
+      "errorCount": 1,
+      "availability": "rate_limited"
+    },
+    "moonshotai/kimi-k2:free": {
+      "requests": 1,
+      "successfulRequests": 0,
+      "failedRequests": 1,
+      "totalTokens": 0,
+      "lastUsed": null,
+      "lastError": {
+        "code": 404,
+        "message": "Privacy policy",
+        "timestamp": 1763991212399
+      },
+      "errorCount": 1,
+      "availability": "unavailable"
+    },
+    "mistralai/mistral-small-3.2-24b-instruct:free": {
+      "requests": 1,
+      "successfulRequests": 0,
+      "failedRequests": 1,
+      "totalTokens": 0,
+      "lastUsed": null,
+      "lastError": {
+        "code": 429,
+        "message": "Rate limited",
+        "timestamp": 1763991212400
+      },
+      "errorCount": 1,
+      "availability": "rate_limited"
+    }
+  },
+  "lastReset": 1763938800000,
+  "totalRequests": 8
+}
